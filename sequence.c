@@ -3,26 +3,38 @@
 #include <math.h>
 
 #define size 10
+#define size2 size + 1
 
-void initVet(float *vet[size])
+void initVet(float vet[size])
 {
     for (int i = 0; i < size; i++)
     {
-        *vet[i] = 0;
+        vet[i] = 0;
     }
 }
 
-void copyMatrix(float *matrix[size + 1][size])
+void initMatrix(float matrix[size2][size])
+{
+    for (int i = 0; i < size2; i++)
+    {
+        for (int j = 0; j < size; j++)
+        {
+            matrix[i][j] = 0;
+        }
+    }
+}
+
+void copyMatrix(float matrix[size2][size])
 {
 
-    FILE *f = fopen("testArchives/linear10.dat", "r");
+    FILE *f = fopen("10por10.dat", "r");
     if (f == NULL)
     {
         perror("Error opening file");
-        return EXIT_FAILURE;
+        return;
     }
 
-    for (int i = 0; i < size + 1; i++)
+    for (int i = 0; i < size2; i++)
     {
         for (int j = 0; j < size; j++)
         {
@@ -30,45 +42,54 @@ void copyMatrix(float *matrix[size + 1][size])
         }
     }
     fclose(f);
+    return;
 }
 
-void calculateResultX(float *matrix[size + 1][size], float *result[size])
+void calculateResultX(float matrix[size2][size], float result[size])
 {
-    float sum = 0;
-    int count = 0;
+    int verify = 0;
     float buffer[size];
-    int verify = 1;
 
     initVet(buffer);
 
-    while (count < size)
+    do
     {
+
         for (int i = 0; i < size; i++)
-            if (count != i)
-                sum += *matrix[count][i] * (*result[i]);
+        {
+            float sum = 0;
+            for (int j = 0; j < size; j++)
+                if (i != j)
+                    sum += (matrix[i][j] * result[j]);
+            buffer[i] = (matrix[size][i] - sum) / (matrix[i][i]);
+        }
 
-        buffer[count] = (*matrix[size + 1][count] - sum) / (*matrix[count][count]);
-        count++;
-    }
+        for (int i = 0; i < size; i++)
+            if (fabs((result[i] - buffer[i])) > pow(10, -5))
+            {
+                verify = 1;
+                break;
+            }
+        for (int i = 0; i < size; i++)
+            result[i] = buffer[i];
 
-    for (int i = 0; i < size; i++)
-        if (fabs(*result[i] - buffer[i] < pow(10, -5)))
-            verify = 0;
+    } while (verify == 1);
 
-    for (int i = 0; i < size; i++)
-        *result[i] = buffer[i];
-
-    return verify ? calculateResultX(matrix, result) : 0;
+    return;
 }
 
 int main()
 {
-    float matrix0[size + 1][size];
+    float matrix[size2][size];
     float result[size];
 
-    copyMatrix(matrix0);
+    initMatrix(matrix);
     initVet(result);
-    calculateResultX(matrix0, result);
+    copyMatrix(matrix);
+    calculateResultX(matrix, result);
 
-    return EXIT_SUCCESS;
+    for (int i = 0; i < size; i++)
+        printf("X%d = %.4f\n", i + 1, result[i]);
+
+    return 0;
 }
