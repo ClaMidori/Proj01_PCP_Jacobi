@@ -27,7 +27,7 @@ void initMatrix(float matrix[size2][size])
 void copyMatrix(float matrix[size2][size])
 {
 
-    FILE *f = fopen("10por10.dat", "r");
+    FILE *f = fopen("linear10.dat", "r");
     if (f == NULL)
     {
         perror("Error opening file");
