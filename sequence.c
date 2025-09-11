@@ -27,7 +27,7 @@ void initMatrix(float matrix[size2][size])
 void copyMatrix(float matrix[size2][size])
 {
 
-    FILE *f = fopen("/home/allan/Documentos/Programação/C/projetoPCP/linear10.dat", "r");
+    FILE *f = fopen("linear10.dat", "r");
     if (f == NULL)
     {
         perror("Error opening file");
@@ -49,12 +49,12 @@ void calculateResultX(float matrix[size2][size], float result[size])
 {
     int verify = 0;
     float buffer[size];
-    printf("oláaaa");
+    printf("olaaaa\n");
     initVet(buffer);
 
     do
     {
-
+        printf("%d\n", verify);
         for (int i = 0; i < size; i++)
         {
             float sum = 0;
@@ -74,25 +74,22 @@ void calculateResultX(float matrix[size2][size], float result[size])
             result[i] = buffer[i];
 
     } while (verify == 1);
-    printf("oláaaa2");
+    printf("olaaaa2\n");
 
     return;
 }
 
 int main()
 {
-    printf("oi4");
 
     float matrix[size2][size];
     float result[size];
 
     initMatrix(matrix);
     initVet(result);
-    printf("oi1");
     copyMatrix(matrix);
-    printf("oi2");
     calculateResultX(matrix, result);
-    printf("oi3");
+    printf("oi3\n");
 
     for (int i = 0; i < size; i++)
         printf("X%d = %.4f\n", i + 1, result[i]);
