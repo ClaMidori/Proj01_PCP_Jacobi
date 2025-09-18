@@ -1,0 +1,205 @@
+Sistema 500x500 encontrado
+Combinacao 1/13 (threads=1 schedule=none chunk=0) rodada 1/3
+Iteracao 0: Erro=5.005e+02  Residuo=9.995e-01
+Iteracao 1: Erro=9.995e-01  Residuo=1.995e-03
+Iteracao 2: Erro=1.995e-03  Residuo=3.983e-06
+Validacao da solucao (sequencial, threads=1, schedule=none, rodada=1):
+Erro relativo = 1.589e-11
+Combinacao 1/13 (threads=1 schedule=none chunk=0) rodada 2/3
+Iteracao 0: Erro=5.005e+02  Residuo=9.995e-01
+Iteracao 1: Erro=9.995e-01  Residuo=1.995e-03
+Iteracao 2: Erro=1.995e-03  Residuo=3.983e-06
+Validacao da solucao (sequencial, threads=1, schedule=none, rodada=2):
+Erro relativo = 1.589e-11
+Combinacao 1/13 (threads=1 schedule=none chunk=0) rodada 3/3
+Iteracao 0: Erro=5.005e+02  Residuo=9.995e-01
+Iteracao 1: Erro=9.995e-01  Residuo=1.995e-03
+Iteracao 2: Erro=1.995e-03  Residuo=3.983e-06
+Validacao da solucao (sequencial, threads=1, schedule=none, rodada=3):
+Erro relativo = 1.589e-11
+Combinacao 2/13 (threads=2 schedule=static_simple chunk=0) rodada 1/3
+Validacao da solucao (openmp, threads=2, schedule=static_simple, rodada=1):
+Erro relativo = 1.589e-11
+Combinacao 2/13 (threads=2 schedule=static_simple chunk=0) rodada 2/3
+Validacao da solucao (openmp, threads=2, schedule=static_simple, rodada=2):
+Erro relativo = 1.589e-11
+Combinacao 2/13 (threads=2 schedule=static_simple chunk=0) rodada 3/3
+Validacao da solucao (openmp, threads=2, schedule=static_simple, rodada=3):
+Erro relativo = 1.589e-11
+Combinacao 3/13 (threads=4 schedule=static_simple chunk=0) rodada 1/3
+Validacao da solucao (openmp, threads=4, schedule=static_simple, rodada=1):
+Erro relativo = 1.589e-11
+Combinacao 3/13 (threads=4 schedule=static_simple chunk=0) rodada 2/3
+Validacao da solucao (openmp, threads=4, schedule=static_simple, rodada=2):
+Erro relativo = 1.589e-11
+Combinacao 3/13 (threads=4 schedule=static_simple chunk=0) rodada 3/3
+Validacao da solucao (openmp, threads=4, schedule=static_simple, rodada=3):
+Erro relativo = 1.589e-11
+Combinacao 4/13 (threads=8 schedule=static_simple chunk=0) rodada 1/3
+Validacao da solucao (openmp, threads=8, schedule=static_simple, rodada=1):
+Erro relativo = 1.589e-11
+Combinacao 4/13 (threads=8 schedule=static_simple chunk=0) rodada 2/3
+Validacao da solucao (openmp, threads=8, schedule=static_simple, rodada=2):
+Erro relativo = 1.589e-11
+Combinacao 4/13 (threads=8 schedule=static_simple chunk=0) rodada 3/3
+Validacao da solucao (openmp, threads=8, schedule=static_simple, rodada=3):
+Erro relativo = 1.589e-11
+Combinacao 5/13 (threads=2 schedule=static chunk=25) rodada 1/3
+Validacao da solucao (openmp, threads=2, schedule=static, rodada=1):
+Erro relativo = 1.589e-11
+Combinacao 5/13 (threads=2 schedule=static chunk=25) rodada 2/3
+Validacao da solucao (openmp, threads=2, schedule=static, rodada=2):
+Erro relativo = 1.589e-11
+Combinacao 5/13 (threads=2 schedule=static chunk=25) rodada 3/3
+Validacao da solucao (openmp, threads=2, schedule=static, rodada=3):
+Erro relativo = 1.589e-11
+Combinacao 6/13 (threads=4 schedule=static chunk=25) rodada 1/3
+Validacao da solucao (openmp, threads=4, schedule=static, rodada=1):
+Erro relativo = 1.589e-11
+Combinacao 6/13 (threads=4 schedule=static chunk=25) rodada 2/3
+Validacao da solucao (openmp, threads=4, schedule=static, rodada=2):
+Erro relativo = 1.589e-11
+Combinacao 6/13 (threads=4 schedule=static chunk=25) rodada 3/3
+Validacao da solucao (openmp, threads=4, schedule=static, rodada=3):
+Erro relativo = 1.589e-11
+Combinacao 7/13 (threads=8 schedule=static chunk=25) rodada 1/3
+Validacao da solucao (openmp, threads=8, schedule=static, rodada=1):
+Erro relativo = 1.589e-11
+Combinacao 7/13 (threads=8 schedule=static chunk=25) rodada 2/3
+Validacao da solucao (openmp, threads=8, schedule=static, rodada=2):
+Erro relativo = 1.589e-11
+Combinacao 7/13 (threads=8 schedule=static chunk=25) rodada 3/3
+Validacao da solucao (openmp, threads=8, schedule=static, rodada=3):
+Erro relativo = 1.589e-11
+Combinacao 8/13 (threads=2 schedule=dynamic chunk=25) rodada 1/3
+Validacao da solucao (openmp, threads=2, schedule=dynamic, rodada=1):
+Erro relativo = 1.589e-11
+Combinacao 8/13 (threads=2 schedule=dynamic chunk=25) rodada 2/3
+Validacao da solucao (openmp, threads=2, schedule=dynamic, rodada=2):
+Erro relativo = 1.589e-11
+Combinacao 8/13 (threads=2 schedule=dynamic chunk=25) rodada 3/3
+Validacao da solucao (openmp, threads=2, schedule=dynamic, rodada=3):
+Erro relativo = 1.589e-11
+Combinacao 9/13 (threads=4 schedule=dynamic chunk=25) rodada 1/3
+Validacao da solucao (openmp, threads=4, schedule=dynamic, rodada=1):
+Erro relativo = 1.589e-11
+Combinacao 9/13 (threads=4 schedule=dynamic chunk=25) rodada 2/3
+Validacao da solucao (openmp, threads=4, schedule=dynamic, rodada=2):
+Erro relativo = 1.589e-11
+Combinacao 9/13 (threads=4 schedule=dynamic chunk=25) rodada 3/3
+Validacao da solucao (openmp, threads=4, schedule=dynamic, rodada=3):
+Erro relativo = 1.589e-11
+Combinacao 10/13 (threads=8 schedule=dynamic chunk=25) rodada 1/3
+Validacao da solucao (openmp, threads=8, schedule=dynamic, rodada=1):
+Erro relativo = 1.589e-11
+Combinacao 10/13 (threads=8 schedule=dynamic chunk=25) rodada 2/3
+Validacao da solucao (openmp, threads=8, schedule=dynamic, rodada=2):
+Erro relativo = 1.589e-11
+Combinacao 10/13 (threads=8 schedule=dynamic chunk=25) rodada 3/3
+Validacao da solucao (openmp, threads=8, schedule=dynamic, rodada=3):
+Erro relativo = 1.589e-11
+Combinacao 11/13 (threads=2 schedule=guided chunk=25) rodada 1/3
+Validacao da solucao (openmp, threads=2, schedule=guided, rodada=1):
+Erro relativo = 1.589e-11
+Combinacao 11/13 (threads=2 schedule=guided chunk=25) rodada 2/3
+Validacao da solucao (openmp, threads=2, schedule=guided, rodada=2):
+Erro relativo = 1.589e-11
+Combinacao 11/13 (threads=2 schedule=guided chunk=25) rodada 3/3
+Validacao da solucao (openmp, threads=2, schedule=guided, rodada=3):
+Erro relativo = 1.589e-11
+Combinacao 12/13 (threads=4 schedule=guided chunk=25) rodada 1/3
+Validacao da solucao (openmp, threads=4, schedule=guided, rodada=1):
+Erro relativo = 1.589e-11
+Combinacao 12/13 (threads=4 schedule=guided chunk=25) rodada 2/3
+Validacao da solucao (openmp, threads=4, schedule=guided, rodada=2):
+Erro relativo = 1.589e-11
+Combinacao 12/13 (threads=4 schedule=guided chunk=25) rodada 3/3
+Validacao da solucao (openmp, threads=4, schedule=guided, rodada=3):
+Erro relativo = 1.589e-11
+Combinacao 13/13 (threads=8 schedule=guided chunk=25) rodada 1/3
+Validacao da solucao (openmp, threads=8, schedule=guided, rodada=1):
+Erro relativo = 1.589e-11
+Combinacao 13/13 (threads=8 schedule=guided chunk=25) rodada 2/3
+Validacao da solucao (openmp, threads=8, schedule=guided, rodada=2):
+Erro relativo = 1.589e-11
+Combinacao 13/13 (threads=8 schedule=guided chunk=25) rodada 3/3
+Validacao da solucao (openmp, threads=8, schedule=guided, rodada=3):
+Erro relativo = 1.589e-11
+Benchmark concluido!
+Sistema 1000x1000 encontrado
+Combinacao 1/13 (threads=1 schedule=none chunk=0) rodada 1/3
+Iteracao 0: Erro=1.506e+03  Residuo=1.015e+03
+Iteracao 1: Erro=1.015e+03  Residuo=9.965e+02
+Iteracao 2: Erro=9.965e+02  Residuo=9.943e+02
+Iteracao 3: Erro=9.943e+02  Residuo=9.923e+02
+Iteracao 4: Erro=9.923e+02  Residuo=9.903e+02
+Iteracao 5: Erro=9.903e+02  Residuo=9.884e+02
+Iteracao 6: Erro=9.884e+02  Residuo=9.864e+02
+Iteracao 7: Erro=9.864e+02  Residuo=9.844e+02
+Iteracao 8: Erro=9.844e+02  Residuo=9.824e+02
+Iteracao 9: Erro=9.824e+02  Residuo=9.805e+02
+Iteracao 1000: Erro=1.352e+02  Residuo=1.349e+02
+Iteracao 2000: Erro=1.827e+01  Residuo=1.823e+01
+Iteracao 3000: Erro=2.469e+00  Residuo=2.464e+00
+Iteracao 4000: Erro=3.336e-01  Residuo=3.329e-01
+Iteracao 5000: Erro=4.508e-02  Residuo=4.499e-02
+Iteracao 6000: Erro=6.092e-03  Residuo=6.080e-03
+Iteracao 7000: Erro=8.233e-04  Residuo=8.216e-04
+Iteracao 8000: Erro=1.113e-04  Residuo=1.110e-04
+Iteracao 9000: Erro=1.503e-05  Residuo=1.500e-05
+Validacao da solucao (sequencial, threads=1, schedule=none, rodada=1):
+Erro relativo = 6.863e-09
+Combinacao 1/13 (threads=1 schedule=none chunk=0) rodada 2/3
+Iteracao 0: Erro=1.506e+03  Residuo=1.015e+03
+Iteracao 1: Erro=1.015e+03  Residuo=9.965e+02
+Iteracao 2: Erro=9.965e+02  Residuo=9.943e+02
+Iteracao 3: Erro=9.943e+02  Residuo=9.923e+02
+Iteracao 4: Erro=9.923e+02  Residuo=9.903e+02
+Iteracao 5: Erro=9.903e+02  Residuo=9.884e+02
+Iteracao 6: Erro=9.884e+02  Residuo=9.864e+02
+Iteracao 7: Erro=9.864e+02  Residuo=9.844e+02
+Iteracao 8: Erro=9.844e+02  Residuo=9.824e+02
+Iteracao 9: Erro=9.824e+02  Residuo=9.805e+02
+Iteracao 1000: Erro=1.352e+02  Residuo=1.349e+02
+Iteracao 2000: Erro=1.827e+01  Residuo=1.823e+01
+Iteracao 3000: Erro=2.469e+00  Residuo=2.464e+00
+Iteracao 4000: Erro=3.336e-01  Residuo=3.329e-01
+Iteracao 5000: Erro=4.508e-02  Residuo=4.499e-02
+Iteracao 6000: Erro=6.092e-03  Residuo=6.080e-03
+Iteracao 7000: Erro=8.233e-04  Residuo=8.216e-04
+Iteracao 8000: Erro=1.113e-04  Residuo=1.110e-04
+Iteracao 9000: Erro=1.503e-05  Residuo=1.500e-05
+Validacao da solucao (sequencial, threads=1, schedule=none, rodada=2):
+Erro relativo = 6.863e-09
+Combinacao 1/13 (threads=1 schedule=none chunk=0) rodada 3/3
+Iteracao 0: Erro=1.506e+03  Residuo=1.015e+03
+Iteracao 1: Erro=1.015e+03  Residuo=9.965e+02
+Iteracao 2: Erro=9.965e+02  Residuo=9.943e+02
+Iteracao 3: Erro=9.943e+02  Residuo=9.923e+02
+Iteracao 4: Erro=9.923e+02  Residuo=9.903e+02
+Iteracao 5: Erro=9.903e+02  Residuo=9.884e+02
+Iteracao 6: Erro=9.884e+02  Residuo=9.864e+02
+Iteracao 7: Erro=9.864e+02  Residuo=9.844e+02
+Iteracao 8: Erro=9.844e+02  Residuo=9.824e+02
+Iteracao 9: Erro=9.824e+02  Residuo=9.805e+02
+Iteracao 1000: Erro=1.352e+02  Residuo=1.349e+02
+Iteracao 2000: Erro=1.827e+01  Residuo=1.823e+01
+Iteracao 3000: Erro=2.469e+00  Residuo=2.464e+00
+Iteracao 4000: Erro=3.336e-01  Residuo=3.329e-01
+Iteracao 5000: Erro=4.508e-02  Residuo=4.499e-02
+Iteracao 6000: Erro=6.092e-03  Residuo=6.080e-03
+Iteracao 7000: Erro=8.233e-04  Residuo=8.216e-04
+Iteracao 8000: Erro=1.113e-04  Residuo=1.110e-04
+Iteracao 9000: Erro=1.503e-05  Residuo=1.500e-05
+Validacao da solucao (sequencial, threads=1, schedule=none, rodada=3):
+Erro relativo = 6.863e-09
+Combinacao 2/13 (threads=2 schedule=static_simple chunk=0) rodada 1/3
+Validacao da solucao (openmp, threads=2, schedule=static_simple, rodada=1):
+Erro relativo = 6.863e-09
+Combinacao 2/13 (threads=2 schedule=static_simple chunk=0) rodada 2/3
+Validacao da solucao (openmp, threads=2, schedule=static_simple, rodada=2):
+Erro relativo = 6.863e-09
+Combinacao 2/13 (threads=2 schedule=static_simple chunk=0) rodada 3/3
+Validacao da solucao (openmp, threads=2, schedule=static_simple, rodada=3):
+Erro relativo = 6.863e-09
+Combinacao 3/13 (threads=4 schedule=static_simple chunk=0) rodada 1/3
